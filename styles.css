@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+/* Header */
+header {
+    background: #1f2937;
+    /* border: solid red; */
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.link-container {
+    display: flex;
+    border: solid greenyellow;
+    gap: 30px;
+}
+.link {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+/* container 1 */
+.container-1 {
+    background: #1f2937;
+    height: 100px;
+}
+/* container 2 */
+.container-2 {
+    height: 100px;
+}
+/* container 3 */
+.container-3 {
+    background: #e5e7eb;
+    height: 100px;
+}
+/* footer */
+footer {
+    background: #1f2937;
+    height: 50px;
+}
