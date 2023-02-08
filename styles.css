@@ -19,13 +19,13 @@ body {
     .logo {
         font-size: 24px;
         color: #f9faf8;
-        width: 400px;
+        max-width: 400px;
     }
     .link-container {
         display: flex;
         gap: 50px;
         justify-content: end;
-        width: 400px;
+        max-width: 400px;
     }
     .link {
         color: #e5e7eb;
@@ -42,7 +42,7 @@ body {
     padding-bottom: 80px;
 }
 .one-left {
-    width: 400px;
+    max-width: 400px;
 }
 .main-text {
     color: #f9faf8;
@@ -63,7 +63,8 @@ body {
     border: solid #f9faf8;
 }
 .one-right {
-    width: 400px;
+    max-width: 400px;
+    min-width: 300px;
 }
 /* container 2 */
 .container-2 {
@@ -115,7 +116,7 @@ body {
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
-    width: 750px;
+    max-width: 750px;
 }
 .quote-author {
     display: flex;
